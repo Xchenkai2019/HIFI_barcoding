@@ -1,19 +1,18 @@
-# HiMBar:  Multi-kingdom Barcode Extractor | 多生物界条形码提取工具
+# HiMBar:  Multi-kingdom Barcode Extractor 
 
-## Introduction | 简介
+## Introduction
 
 HiMBar is an automated pipeline to extract taxonomic barcodes from PacBio CCS reads, supporting multiple  kingdoms (e.g., microbial SSU, algal rbcl, protist markers).
 
-HiMBar 是一个用于从三代测序数据（如 PacBio CCS）中提取多生物界条形码（如 SSU rRNA, rbcl 等）的自动化工具。适用于微生物、藻类、植物等不同界别的群落结构分析。
 
-## Features | 功能 
-- 支持标准HMM扫描提取rDNA
-- 支持功能基因比对（rbcl, PF00115）
-- 支持参数化控制 (--min-passes, --min-rq)
-- 模块化结构，自动日志记录
-- 支持全流程中文与英文注释
+## Features 
+- Supports HMM scanning for rDNA barcoding extraction
 
-## Dependencies | 安装依赖 
+- Supports marker gene alignment for Mitochondria and chloroplasts barcoding extractio (e.g., CO1, rbcL)
+
+- Supports parameterized control (e.g., --min-passes, --min-rq)
+
+## Dependencies 
 - bash
 - Perl
 - hmmer (v3.3+)
@@ -21,7 +20,7 @@ HiMBar 是一个用于从三代测序数据（如 PacBio CCS）中提取多生�
 - seqtk
 - Python (optional)
 
-## Usage | 用法
+## Usage
 
 ```bash
 bash HiMBar.sh \
