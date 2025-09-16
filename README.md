@@ -5,9 +5,8 @@
 ### HiMBar is an automated pipeline to extract taxonomic barcodes from PacBio CCS reads, supporting multiple  kingdoms (e.g., microbial SSU, algal rbcl, protist markers).
 
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/58620efc-d769-454c-9639-f97f80942015" width="600">
+  <img src="https://github.com/user-attachments/assets/c2fcb444-8f93-4072-9cd1-c7ded08bc650" width="600">
 </p>
 
 
