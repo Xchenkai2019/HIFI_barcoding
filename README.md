@@ -6,8 +6,9 @@
 
 
 
-![六界系统条形码](https://github.com/user-attachments/assets/58620efc-d769-454c-9639-f97f80942015){ width=300 }
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/58620efc-d769-454c-9639-f97f80942015" width="600">
+</p>
 
 
 
