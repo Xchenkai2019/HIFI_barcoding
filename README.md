@@ -1,9 +1,14 @@
 # HiMBar:  Multi-kingdom Barcode Extractor 
+![Good](https://img.shields.io/badge/latest%20version-v1.1.0-red) ![Active](https://www.repostatus.org/badges/latest/active.svg) ![GPL](https://img.shields.io/badge/license-GPLv3.0-blue)
 
 ## Introduction
-![六界系统条形码](https://github.com/user-attachments/assets/c69d1558-af04-4647-829a-0ce937f7c2fc)
+### HiMBar is an automated pipeline to extract taxonomic barcodes from PacBio CCS reads, supporting multiple  kingdoms (e.g., microbial SSU, algal rbcl, protist markers).
 
-HiMBar is an automated pipeline to extract taxonomic barcodes from PacBio CCS reads, supporting multiple  kingdoms (e.g., microbial SSU, algal rbcl, protist markers).
+
+
+![六界系统条形码](https://github.com/user-attachments/assets/58620efc-d769-454c-9639-f97f80942015){ width=300 }
+
+
 
 
 ## Features 
