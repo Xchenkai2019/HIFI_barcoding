@@ -1,6 +1,0 @@
-selected.gene.abudance<-read.csv('F:/project/metagenome/保安湖文章/分析/rDNA species diversity/1375/功能相关性分析/top20genefunction.csv',row.names=1)
-selected.phylum.abudance<-read.csv('F:/project/metagenome/保安湖文章/分析/rDNA species diversity/1375/功能相关性分析/phylum_modulev2.csv.csv',row.names=1)
-rownames(annotation_row)<-rownames(species_func.test)
-ann_colors=list(Metabolism=c(Carbohydratemetabolism="#65B99F",Aminoacidmetabolism="#F08961",Nucleotidemetabolism="#8A9BC3",Glycanbiosynthesisandmetabolism="#DA85B5",Aminoacidmetabolism="#A1CC56",Lipidmetabolism="#F5D239",Metabolismofcofactorsandvitamins="#7CC07B",Energymetabolism="#BAABD0"))
-species_func.test<-cor(t(selected.gene.abudance),t(selected.phylum.abudance)
-pheatmap(species_func.test,scale="row",border_color=T,legend_breaks=seq(-1,1,0.2),breaks=bk,color = c(colorRampPalette(colors = c("#66CC99","#FFFFFF"))(length(bk)/2), colorRampPalette(colors = c("#FFFFFF","#CC6699"))(length(bk)/2)),annotation_row =annotation_row,annotation_colors=ann_colors)
